@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script defer src="script.js"></script>
+
+    </script>
+  </head>
+  <body>
+    <h1 align="center">IOE Examination form</h1>
+    <form action="/index.html" id='form' name="myForm">
+      <table  cellpadding="20"  align="center">
+        <tr>
+          <td><p id='error'></p></td>
+        </tr>
+        <tr>
+          <td><label for="first-name">First name: </label></td>
+          <td><input type="text" id="first-name" /></td>
+        </tr>
+        <tr>
+          <td><label for="middle-name">Middle name: </label></td>
+          <td><input type="text" id="middle-name" /></td>
+        </tr>
+        <tr>
+          <td><label for="last-name">Last name: </label></td>
+          <td><input type="text" id="last-name" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email: </label></td>
+          <td><input type="email" id="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="contact">Contact: </label></td>
+          <td><input type="tel" id="contact" /></td>
+        </tr>
+        <tr>
+          <td>Gender:</td>
+          <td>
+            <input type="radio" id="gender" value="male" /> Male
+            <input type="radio" id="gender" value="female" /> Female
+            <input type="radio" id="gender" value="other" /> Other
+          </td>
+        </tr>
+        <tr>
+          <td><label for="address">Address: </label></td>
+          <td><input type="address" id="address" /></td>
+        </tr>
+        <tr>
+          <td><label for="college-name">College name: </label></td>
+          <td><input type="college-name" id="college-name" /></td>
+        </tr>
+        <tr>
+          <td>Exam type:</td>
+          <td>
+            <input type="radio" name="exam-type" value="regular" /> Regular
+            <input type="radio" name="exam-type" value="back" /> Back
+          </td>
+        </tr>
+        <tr>
+            <td><button type="submit" name="" id="submit" value="Submit">Submit</button></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
